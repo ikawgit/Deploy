@@ -146,10 +146,10 @@ a:link,a:visited {
     	<table width="750" border="0" cellspacing="0" cellpadding="0">
       <tr>
       <td align="right" height="26" style="padding-right:10px;line-height:26px;">
-        	您好：<span name="username" ><font color="red">${username}  </font></span>欢迎您使用代码发布系统
+        	您好：<span name="username" ><font color="red">${user.name}  </font></span>欢迎您使用代码发布系统
         	
         	[<a href="index.jsp" target="_top">主页</a>]
-        	[<a href="javascript:void(0);" onClick="parent.location.href='./../login.jsp'" target="_login">注销退出</a>]&nbsp;
+        	[<a href="../SystemServlet?method=LoginOut" target="_parent">注销退出</a>]&nbsp;
       </td>
       </tr>
       <tr>
